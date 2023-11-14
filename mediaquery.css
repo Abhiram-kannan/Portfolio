@@ -80,6 +80,8 @@
   }
   .contact-container{
     width: auto;
-
+  }
+  .footer-nav .nav-links{
+    font-size: 1.2rem;
   }
 }
