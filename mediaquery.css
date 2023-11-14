@@ -67,9 +67,19 @@
   #Projects{
     height: auto;
     margin-bottom: 50px;
+    margin: 0;    
+    padding: 2rem;
   }
   .projects-container{
     display: flex;
     flex-direction: column;
+    margin: 0;
+  }
+  .btn-container{
+    gap: 2rem
+  }
+  .contact-container{
+    width: auto;
+
   }
 }
