@@ -1,0 +1,75 @@
+@media screen and (max-width: 720px){
+
+  /* HOME SECTION */
+
+  #desktop-nav{
+    display: none;
+  }
+  #hamburger-nav{
+    display: flex;
+  }
+  .abhi{
+    font-size: 1.5rem;
+  }
+  .menu-link a{
+    font-size: 1.5rem;
+  }
+  #Home{
+    padding: 0;
+  }
+  .Hello{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .pfp{
+    width: 300px;
+  }
+  .text{
+    margin: 0;
+  }
+  .pic-container{
+    align-self: center;
+    align-items: center;
+  }
+  .text-h1{
+    font-size: 2.8rem;
+  }
+  .text-p2{
+    font-size: 2rem;
+  }
+  .home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+  }
+  #Home{
+    height: auto;
+  }
+
+  /* ABOUT ME */
+  #About{
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    margin-top: 50px;
+    height: auto;
+  }
+  .about-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .text-p3{
+    font-size: 1.5rem;
+  }
+
+  /* PROJECTS */
+  #Projects{
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .projects-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
